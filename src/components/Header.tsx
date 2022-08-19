@@ -62,7 +62,7 @@ const Menu = () => {
                 href="https://wa.me/message/JMLCZZGOBCSHG1"
                 className={`font-medium text-primary hover:text-secondary`}
               >
-                Whattsapp
+                WhattsApp
               </a>
             </div>
           </nav>

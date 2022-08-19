@@ -44,7 +44,7 @@
     "items": [
       {
         "title": "Orientações",
-        "description": "Optchá seja bem vindo(a) .Busque um lugar tranquilo com boa Internet para ouvir e entender melhor sua Consulta. .Confirme sua Consulta, não esqueça de mandar comprovante de pagamento. .Anote suas questões antes para perguntar para tarologa. .Para perguntas além do valor pago da Consulta, converse com tarologa. .Consulta só para 1 única pessoa .Esteja aberto a ouvir, a Consulta, as vezes pode sair coisas inesperadas, assim como o destino muda o tempo todo. .Para melhor confirmações após leitura busque seguir conselhos orientado através do tarot.",
+        "description": "Optchá seja bem vindo(a).",
         "img": "/assets/images/cards.png"
       },
       {
@@ -98,7 +98,7 @@
         "name": "Jogo de Perguntas",
         "price": "R$ 35,00",
         "priceDetails": "por pergunta",
-        "features": ["Perguntas objetivas", "Saiba", "1", "2"]
+        "features": ["Perguntas objetivas", "Saiba o que precisa", "1", "2"]
       },
       {
         "name": "Consulta Completa",
@@ -106,7 +106,7 @@
         "priceDetails": "",
 
         "features": [
-          "Video chamada",
+          "Video-chamada",
           "60 minutos de jogo",
           "4 perguntas bônus",
           "pergunte detalhes"
