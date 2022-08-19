@@ -1,0 +1,141 @@
+{
+  "company": {
+    "name": "Afrodite Cartomante",
+    "logo": "/assets/images/logo.png"
+  },
+  "navigation": [
+    {
+      "name": "Sobre mim",
+      "href": "product"
+    },
+    {
+      "name": "Horários",
+      "href": "features"
+    },
+    {
+      "name": "Jogos",
+      "href": "pricing"
+    },
+    {
+      "name": "Instagram",
+      "href": "about"
+    }
+  ],
+  "callToAction": {
+    "text": "Agendar consulta",
+    "href": "https://wa.me/message/JMLCZZGOBCSHG1"
+  },
+  "mainHero": {
+    "title": "Afrodite",
+    "subtitle": "Cartomante",
+    "description": "Taróloga cheia de axé. Oraculista - Tarot, Baralho Cigano, Mesa Real Leituras específicas!!! Guiadas por Maria Padilha",
+    "img": "/assets/images/tarot.jpg",
+    "primaryAction": {
+      "text": "Agendar consulta",
+      "href": "https://wa.me/message/JMLCZZGOBCSHG1"
+    },
+    "secondaryAction": {
+      "text": "Instagram",
+      "href": "https://www.instagram.com/magias_tarot_afrodite/"
+    }
+  },
+  "product": {
+    "title": "Conheça meu trabalho",
+    "items": [
+      {
+        "title": "Orientações",
+        "description": "Optchá seja bem vindo(a) .Busque um lugar tranquilo com boa Internet para ouvir e entender melhor sua Consulta. .Confirme sua Consulta, não esqueça de mandar comprovante de pagamento. .Anote suas questões antes para perguntar para tarologa. .Para perguntas além do valor pago da Consulta, converse com tarologa. .Consulta só para 1 única pessoa .Esteja aberto a ouvir, a Consulta, as vezes pode sair coisas inesperadas, assim como o destino muda o tempo todo. .Para melhor confirmações após leitura busque seguir conselhos orientado através do tarot.",
+        "img": "/assets/images/cards.png"
+      },
+      {
+        "title": "Aqui vai alguma coisa",
+        "description": "lorem ipsum",
+        "img": "/assets/images/safira.png"
+      }
+    ]
+  },
+  "features": {
+    "title": "Horários",
+    "subtitle": "Agende sua consulta",
+    "description": "Horários de atendimento:",
+    "items": [
+      {
+        "name": "Segunda-feira",
+        "description": "Atendendo dás 11:00 ás 18:00.",
+        "icon": "/assets/images/cat.png"
+      },
+      {
+        "name": "Terça-feira",
+        "description": "Atendendo dás 11:00 ás 18:00.",
+        "icon": "/assets/images/cat.png"
+      },
+      {
+        "name": "Quarta-feira",
+        "description": "Atendendo dás 11:00 ás 18:00.",
+        "icon": "/assets/images/cat.png"
+      },
+      {
+        "name": "Quinta-feira",
+        "description": "Atendendo dás 11:00 ás 18:00.",
+        "icon": "/assets/images/cat.png"
+      },
+      {
+        "name": "Sexta-feira",
+        "description": "Atendendo dás 11:00 ás 18:00.",
+        "icon": "/assets/images/cat.png"
+      },
+      {
+        "name": "Sabado e Domingo",
+        "description": "Agenda fechada",
+        "icon": "/assets/images/cat.png"
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Jogos",
+    "items": [
+      {
+        "name": "Jogo de Perguntas",
+        "price": "R$ 35,00",
+        "priceDetails": "por pergunta",
+        "features": ["Perguntas objetivas", "Saiba", "1", "2"]
+      },
+      {
+        "name": "Consulta Completa",
+        "price": "R$ 100,00",
+        "priceDetails": "",
+
+        "features": [
+          "Video chamada",
+          "60 minutos de jogo",
+          "4 perguntas bônus",
+          "pergunte detalhes"
+        ]
+      },
+      {
+        "name": "Mandala Astral",
+        "price": "R$ 85,00",
+        "priceDetails": "Apenas 1 asunto",
+        "features": [
+          "Saiba detalhes do seu problema",
+          "Indicação para problemas amorosos",
+          "1",
+          "2"
+        ]
+      }
+    ]
+  },
+  "about": {
+    "sections": [
+      {
+        "name": "",
+        "href": "#"
+      }
+    ],
+    "socialMedia": {
+      "instagram": "https://www.instagram.com/magias_tarot_afrodite/",
+      "whattsapp": "https://wa.me/message/JMLCZZGOBCSHG1",
+      "tiktok": "#"
+    }
+  }
+}
