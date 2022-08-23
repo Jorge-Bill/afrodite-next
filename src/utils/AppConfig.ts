@@ -1,6 +1,6 @@
 export const AppConfig = {
-  site_name: 'Afrpdite Cartomante',
-  title: 'Tárologa cheia de axé',
-  description: 'Optchá seja bem vindo(a) .Busque um lugar tranquilo com boa Internet para ouvir e entender melhor sua Consulta.',
+  site_name: 'Afrodite Cartomante',
+  title: 'Taróloga cheia de axé',
+  description: 'Optchá seja bem vindo(a)',
   locale: 'pt-br',
 };
