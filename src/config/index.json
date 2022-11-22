@@ -5,7 +5,7 @@
   },
   "navigation": [
     {
-      "name": "Sobre mim",
+      "name": "Sobre",
       "href": "product"
     },
     {
@@ -13,7 +13,7 @@
       "href": "features"
     },
     {
-      "name": "Jogos",
+      "name": "Consultas",
       "href": "pricing"
     },
     {
