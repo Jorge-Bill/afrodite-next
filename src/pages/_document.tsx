@@ -7,7 +7,26 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang={AppConfig.locale}>
-        <Head />
+        <Head>
+          <title>Afrodite Cartomante</title>
+          <meta name='description' content='Taróloga cheia de axé. Oraculista' />
+          <meta property='og:title' content='Cartomante Afrodite' />
+          <meta
+            property='og:description'
+            content='Taróloga cheia de axé. Oraculista'
+          />
+          <meta property='og:url' content='https://aphrodite-cra.netlify.app' />
+          <meta property='og:type' content='website' />
+          <link rel='icon' href='/favicon.ico' />
+
+          <meta name="keywords" content="Taróloga, Oraculista, Cartomante, Baralho Cigano, Maria Padilha, Axé" />
+          <meta name="author" content="Afrodite Cartomante" />
+
+          <meta name="theme-color" content="#CB6CE7" /> 
+          <meta name="apple-mobile-web-app-status-bar-style" content="#CB6CE7" /> 
+          <meta name="msapplication-navbutton-color" content="#CB6CE7" /> 
+
+        </Head>
         <body>
           <Main />
           <NextScript />
