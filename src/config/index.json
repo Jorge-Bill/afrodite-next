@@ -126,7 +126,11 @@
   "about": {
     "sections": [
       {
-        "name": "",
+        "name": "teste 01",
+        "href": "#"
+      }, 
+      {
+        "name": "teste 01",
         "href": "#"
       }
     ],
