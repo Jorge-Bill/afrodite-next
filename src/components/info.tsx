@@ -11,7 +11,7 @@ const Info = () => {
         Sobre o <span className='text-primary'>Tarot</span>
       </h1>
       <Divider />
-        <div className={`flex flex-wrap border border-indigo-600 rounded-lg p-8`}>
+        <div className={`flex flex-wrap border-4 border-indigo-600 border-opacity-50 rounded-lg p-8 shadow-xl`}>
             <h3 className={`text-3xl text-gray-800 font-bold leading-none mb-6`}>O que é o tarot?</h3>
             <p className={`text-gray-600 subpixel-antialiased font-light tracking-light leading-7 align-baseline leading-relaxed`}>
                 O tarot é um jogo composto por 78 cartas – do total, 22 delas são chamadas de arcanos maiores e as outras 56 são compostas pelas cartas de um baralho normal. Cada lâmina vem com a ilustração de um arquétipo, que traz um significado. A leitura, que combina diferentes cartas, é baseada na aleatoriedade (ou seja, são sorteadas ao acaso) e ajuda a interpretar situações e criar um panorama da vida de quem consulta esse oráculo.
