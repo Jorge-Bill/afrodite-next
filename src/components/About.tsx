@@ -1,12 +1,12 @@
 import React from 'react';
 import { Player } from "@lottiefiles/react-lottie-player";
 import catPlay from "../utils/JSON/cat_play.json";
-import config from '../config/index.json';
+// import config from '../config/index.json';
 
 const About = () => {
-  const { company, about } = config;
-  const { logo, name: companyName } = company;
-  const { socialMedia, sections } = about;
+  // const { company, about } = config;
+  // const { logo, name: companyName } = company;
+  // const { socialMedia, sections } = about;
 
   return (
     <div
@@ -14,9 +14,9 @@ const About = () => {
       className="mx-auto container xl:px-20 lg:px-12 sm:px-6 px-4 py-12"
     >
       <div className="flex flex-col items-center justify-center">
-        <div>
+        {/* <div>
           <img src={logo} alt={companyName} className="w-16 h-16" />
-        </div>
+        </div> */}
         {/* <div className="flex flex-wrap sm:gap-10 gap-8 items-center justify-center mt-4 h-12">
           {sections.map((section, index) => (
             <a
@@ -28,7 +28,7 @@ const About = () => {
             </a>
           ))}
         </div> */}
-        <div className="flex items-center gap-x-8 mt-6 h-8">
+        {/* <div className="flex items-center gap-x-8 mt-6 h-8">
           <a
             aria-label="instagram"
             href={socialMedia.instagram}
@@ -71,6 +71,9 @@ const About = () => {
               <path fill="evenodd" d="M7 2a2 2 0 00-2 2v12a2 2 0 002 2h6a2 2 0 002-2V4a2 2 0 00-2-2H7zm3 14a1 1 0 100-2 1 1 0 000 2z" clipRule="evenodd" />
             </svg>
           </a>
+        </div> */}
+        <div className="flex items-center mt-12">
+          <Player src={catPlay} className="h-48" loop autoplay />
         </div>
         <div className="flex items-center mt-6">
           <p className="mt-6 text-xs lg:text-sm leading-none text-gray-900 dark:text-gray-50">
@@ -79,9 +82,6 @@ const About = () => {
               Mendes Tecnologia
             </a>
           </p>
-        </div>
-        <div className="flex items-center mt-12">
-          <Player src={catPlay} className="h-48" loop autoplay />
         </div>
       </div>
     </div>

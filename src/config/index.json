@@ -43,13 +43,13 @@
     "title": "Conheça meu trabalho",
     "items": [
       {
-        "title": "Orientações",
-        "description": "Optchá seja bem vindo(a).",
+        "title": "Taróloga cheia de Axé",
+        "description": "Optchá seja bem vindo(a) a Afrodite Cartomante, aqui você encontra informações sobre mim, meu trabalho como taróloga e minhas redes sociais, Optchá!",
         "img": "/assets/images/cards.png"
       },
       {
-        "title": "Aqui vai alguma coisa",
-        "description": "lorem ipsum",
+        "title": "Mudando vidas através do Tarot",
+        "description": "As vezes tudo que precisamos é um conselho ou orientação para lidar com um problema ou situação difícil, através do tarot é possível ter estes conselhos e assim conseguir viver uma vida mais equilibrada.",
         "img": "/assets/images/safira.png"
       }
     ]
@@ -92,35 +92,33 @@
     ]
   },
   "pricing": {
-    "title": "Jogos",
+    "title": "Consultas",
     "items": [
       {
-        "name": "Jogo de Perguntas",
-        "price": "R$ 35,00",
-        "priceDetails": "por pergunta",
-        "features": ["Perguntas objetivas", "Saiba o que precisa", "1", "2"]
+        "name": "Perguntas Objetivas",
+        "price": "R$ 50,00",
+        "priceDetails": "",
+        "features": ["Perguntas objetivas", "Saiba o que precisa", "Até 5 perguntas"]
       },
       {
-        "name": "Consulta Completa",
+        "name": "Consulta Completa Online",
         "price": "R$ 100,00",
         "priceDetails": "",
 
         "features": [
-          "Video-chamada",
-          "60 minutos de jogo",
-          "4 perguntas bônus",
-          "pergunte detalhes"
+          "Consulta por video chamada",
+          "60 minutos de consulta",
+          "2 perguntas objetivas bônus",
+          "pergunte detalhes sobre amor, dinheiro, saúde, espiritual, família"
         ]
       },
       {
-        "name": "Mandala Astral",
-        "price": "R$ 85,00",
-        "priceDetails": "Apenas 1 asunto",
+        "name": "3 Perguntas Objetivas",
+        "price": "R$ 45,00",
+        "priceDetails": "",
         "features": [
-          "Saiba detalhes do seu problema",
-          "Indicação para problemas amorosos",
-          "1",
-          "2"
+          "Perguntas objetivas",
+          "Perguntas fora a consulta R$5,00 até R$ 10,00"
         ]
       }
     ]
