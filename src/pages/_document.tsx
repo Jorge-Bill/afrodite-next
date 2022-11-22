@@ -15,7 +15,7 @@ class MyDocument extends Document {
             property='og:description'
             content='Taróloga cheia de axé. Oraculista'
           />
-          <meta property='og:url' content='https://aphrodite-cra.netlify.app' />
+          <meta property='og:url' content='https://afrodite-nextjs.netlify.app' />
           <meta property='og:type' content='website' />
           <link rel='icon' href='/favicon.ico' />
 
