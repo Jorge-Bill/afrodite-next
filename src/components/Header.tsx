@@ -59,10 +59,17 @@ const Menu = () => {
                 </Link>
               ))}
               <a
+                href="https://www.instagram.com/magias_tarot_afrodite/"
+                className={`font-medium text-gray-500 hover:text-gray-900`}
+                target="_blank"
+              >
+                Instagram
+              </a>
+              <a
                 href="https://wa.me/message/JMLCZZGOBCSHG1"
                 className={`font-medium text-primary hover:text-secondary`}
               >
-                WhattsApp
+                WhatsApp
               </a>
             </div>
           </nav>

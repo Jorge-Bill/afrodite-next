@@ -10,7 +10,8 @@ import MainHero from '../components/MainHero';
 import MainHeroImage from '../components/MainHeroImage';
 import Pricing from '../components/Pricing';
 import Product from '../components/Product';
-import Info from '../components/info';
+import Tarot from '../components/Tarot';
+// import WhattsButton from '../components/WhattsButton';
 
 const App = () => {
   return (
@@ -29,7 +30,7 @@ const App = () => {
       <Canvas />
       <LazyShow>
         <>
-          <Info />
+          <Tarot />
           <Product />
           <Canvas />
         </>
@@ -50,6 +51,7 @@ const App = () => {
         </>
       </LazyShow>
       <Analytics />
+      {/* <WhattsButton /> */}
     </div>
   );
 };

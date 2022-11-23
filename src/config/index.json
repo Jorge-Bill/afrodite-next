@@ -15,10 +15,6 @@
     {
       "name": "Consultas",
       "href": "pricing"
-    },
-    {
-      "name": "Instagram",
-      "href": "https://www.instagram.com/magias_tarot_afrodite/"
     }
   ],
   "callToAction": {
@@ -31,7 +27,7 @@
     "description": "Taróloga cheia de axé. Oraculista - Tarot, Baralho Cigano, Mesa Real Leituras específicas!!! Guiadas por Maria Padilha",
     "img": "/assets/images/bg02.jpeg",
     "primaryAction": {
-      "text": "Agendar consulta",
+      "text": "Agendar Consulta",
       "href": "https://wa.me/message/JMLCZZGOBCSHG1"
     },
     "secondaryAction": {
