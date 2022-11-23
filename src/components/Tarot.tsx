@@ -29,11 +29,12 @@ const Info = () => {
             </p>
 
             <h3 className={`text-3xl text-gray-800 font-bold leading-none mb-6 mt-6`}>Como funciona uma leitura das cartas?</h3>
-            <p className={`text-gray-600 subpixel-antialiased font-light tracking-light leading-7 align-baseline leading-relaxed`}>
-                O tarot é uma ferramenta de autoconhecimento. Ele não indica o caminho exato a seguir, mas oferece opções e reflexões. Ao chegar a uma consulta, você pode ter uma pergunta pronta na cabeça ou pedir um panorama geral da sua vida. A/o taróloga/o vai embaralhar as cartas e abrir o seu jogo. Conforme as cartas forem viradas sobre a mesa, forma-se a linha de raciocínio. 
+            <p className={`text-gray-800 subpixel-antialiased font-light tracking-light leading-7 align-baseline leading-relaxed`}>
+                O tarot é uma ferramenta de autoconhecimento. Ele não apenas indica um caminho exato a se seguir, mas oferece opções e reflexões. Ao chegar a uma consulta, você pode ter uma pergunta pronta na cabeça ou pedir um panorama geral da sua vida. Afrodite vai embaralhar as cartas e abrir o seu jogo. Conforme as cartas forem viradas sobre a mesa, forma-se a linha de raciocínio, Neste momento não é apenas Afrodite falando mas o baralho em si é conduzido por entidades Que a acompanham como <b>Maria Padilha</b>, <b>Seu Zé Pelintra</b>, ou a <b>Bruxa Morgana</b> assim te passando recados e informações extremamente importantes. Normalmente costa-se dizer: 
             </p>
+            <p className={`text-gray-800 subpixel-antialiased font-light tracking-light leading-8 align-baseline leading-relaxed mb-2 mt-2`}><b>O baralho não te diz o que você deseja mas aquilo que você precisa de ouvir.</b></p>
             <p className={`text-gray-600 subpixel-antialiased font-light tracking-light leading-7 align-baseline leading-relaxed`}>
-                O passado vem à tona – fatos que aconteceram lá atrás, mas que continuam influenciando a sua vida, seu presente e a situação em que se encontra –, mas também o futuro. Como vai estar a sua situação, que caminhos você vai encontrar e como tomar a decisão correta? São conselhos e observações sobre a sua vida que surgem da energia colocada em cada carta virada. 
+                O passado vem à tona, fatos que aconteceram lá atrás mas que continuam influenciando a sua vida, seu presente e a situação em que se encontra, e o futuro. Como vai estar a sua situação, que caminhos você vai encontrar e como tomar a decisão correta? São conselhos e observações sobre a sua vida que surgem da energia das entidades em cada carta virada. 
             </p>
         </div>
     </div>
