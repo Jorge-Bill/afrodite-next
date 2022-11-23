@@ -40,6 +40,7 @@ const Info = () => {
             <h3 className={`text-3xl text-gray-800 font-bold leading-none mb-6 mt-6`}>Orientações para uma boa consulta</h3>
             <p className={`text-gray-800 subpixel-antialiased font-light tracking-light leading-7 align-baseline leading-relaxed md:ml-4`}>
             <ul className={`list-decimal`}>
+                <li>Consulta perante agendamento prévio</li>
                 <li>Procure um lugar calmo e relaxante</li>
                 <li>Tenha tempo para a consulta pois afrodite irá te chamar um pouco antes do horário agendado</li>
                 <li>Preste atenção atentamente ao recado das cartas</li>
