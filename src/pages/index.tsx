@@ -11,6 +11,7 @@ import MainHeroImage from '../components/MainHeroImage';
 import Pricing from '../components/Pricing';
 import Product from '../components/Product';
 import Tarot from '../components/Tarot';
+import Instagram from '../components/Instagram';
 // import WhattsButton from '../components/WhattsButton';
 
 const App = () => {
@@ -42,7 +43,10 @@ const App = () => {
         </>
       </LazyShow>
       <LazyShow>
-        <Pricing />
+        <>
+          <Pricing />
+          <Instagram />
+        </>
       </LazyShow>
       <LazyShow>
         <>

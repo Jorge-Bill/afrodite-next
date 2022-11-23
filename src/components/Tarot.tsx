@@ -36,6 +36,20 @@ const Info = () => {
             <p className={`text-gray-600 subpixel-antialiased font-light tracking-light leading-7 align-baseline leading-relaxed`}>
                 O passado vem à tona, fatos que aconteceram lá atrás mas que continuam influenciando a sua vida, seu presente e a situação em que se encontra, e o futuro. Como vai estar a sua situação, que caminhos você vai encontrar e como tomar a decisão correta? São conselhos e observações sobre a sua vida que surgem da energia das entidades em cada carta virada. 
             </p>
+
+            <h3 className={`text-3xl text-gray-800 font-bold leading-none mb-6 mt-6`}>Orientações para uma boa consulta</h3>
+            <p className={`text-gray-800 subpixel-antialiased font-light tracking-light leading-7 align-baseline leading-relaxed md:ml-4`}>
+            <ul className={`list-decimal`}>
+                <li>Procure um lugar calmo e relaxante</li>
+                <li>Tenha tempo para a consulta pois afrodite irá te chamar um pouco antes do horário agendado</li>
+                <li>Preste atenção atentamente ao recado das cartas</li>
+                <li>Avise a Afrodite com antecedência caso ocorra um imprevisto para remarcar a consulta</li>
+                <li>As consultas acontecem após o pagamento via Pix</li>
+                <li>Esteja apta(o) a ouvir os recados que o baralho tem para você</li>
+                <li>Pense em suas perguntas e o que deseja descobrir antecipadamente</li>
+            </ul>
+            </p>
+
         </div>
     </div>
   </section>
