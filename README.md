@@ -1,6 +1,6 @@
 # AfroditeJS
 
-## <a href="#"> Web</a>
+## <a href="https://afroditecartomante.netlify.app/">https://afroditecartomante.netlify.app/</a>
 
 ### Description
 
@@ -68,11 +68,6 @@ yarn build-prod
 ### License
 
 Licensed under the MIT License, Copyright © 2022
-  
-
-
-
-
 
 ---
 
