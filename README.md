@@ -1,6 +1,8 @@
-# AfroditeJS
+# Afrodite Cartomante
+<img width="660" alt="Screen Shot 2022-11-25 at 16 26 04" src="https://user-images.githubusercontent.com/15276832/204044837-fdd14203-6861-40d5-9e38-6fb2910199f7.png">
 
-## <a href="https://afroditecartomante.netlify.app/">https://afroditecartomante.netlify.app/</a>
+
+### <a href="https://afroditecartomante.netlify.app/">Site</a>
 
 ### Description
 
@@ -70,12 +72,7 @@ yarn build-prod
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4649d379-760f-4e2e-a11d-df09216e019b/deploy-status)](https://app.netlify.com/sites/afroditecartomante/settings/deploys)
 
----
-
 
 ### License
 
 Licensed under the MIT License, Copyright © 2022
-
----
-
