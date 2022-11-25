@@ -65,6 +65,14 @@ You can create an optimised production build with:
 ```
 yarn build-prod
 ```
+
+## 💫 Deploy on Netlify
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4649d379-760f-4e2e-a11d-df09216e019b/deploy-status)](https://app.netlify.com/sites/afroditecartomante/settings/deploys)
+
+---
+
+
 ### License
 
 Licensed under the MIT License, Copyright © 2022
