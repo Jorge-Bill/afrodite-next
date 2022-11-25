@@ -54,8 +54,8 @@ const App = () => {
           <About />
         </>
       </LazyShow>
-      <Analytics />
       {/* <WhattsButton /> */}
+      <Analytics />
     </div>
   );
 };
