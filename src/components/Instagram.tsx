@@ -19,7 +19,7 @@ const Instagram = () => {
   <div className="mt-10 flex items-center justify-center">   
     <iframe 
       className='border-4 border-indigo-600 border-opacity-50 rounded-lg p-1 shadow-xl' 
-      id="frame" width="auto" height="600" src="https://www.instagram.com/p/CaAB6B5gFy0/embed" />
+      id="instagramProfile" width="auto" height="600" src="https://www.instagram.com/p/CaAB6B5gFy0/embed" />
   </div>
 </div>
 </div>

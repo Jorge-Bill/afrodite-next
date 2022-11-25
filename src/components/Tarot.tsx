@@ -38,8 +38,7 @@ const Info = () => {
             </p>
 
             <h3 className={`text-3xl text-gray-800 font-bold leading-none mb-6 mt-6`}>Orientações para uma boa consulta</h3>
-            <p className={`text-gray-800 subpixel-antialiased font-light tracking-light leading-7 align-baseline leading-relaxed md:ml-4`}>
-            <ul className={`list-decimal`}>
+            <ul className={`list-decimal text-gray-800 subpixel-antialiased font-light tracking-light leading-7 align-baseline leading-relaxed md:ml-4`}>
                 <li>Consulta perante agendamento prévio</li>
                 <li>Procure um lugar calmo e relaxante</li>
                 <li>Tenha tempo para a consulta pois afrodite irá te chamar um pouco antes do horário agendado</li>
@@ -49,8 +48,6 @@ const Info = () => {
                 <li>Esteja apta(o) a ouvir os recados que o baralho tem para você</li>
                 <li>Pense em suas perguntas e o que deseja descobrir antecipadamente</li>
             </ul>
-            </p>
-
         </div>
     </div>
   </section>
