@@ -8,6 +8,7 @@ class MyDocument extends Document {
     return (
       <Html lang={AppConfig.locale}>
         <Head>
+        <title>Afrodite Cartomante</title>
           <meta name='description' content='Taróloga cheia de axé. Oraculista' />
           <meta property='og:title' content='Cartomante Afrodite' />
           <meta
