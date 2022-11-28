@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Sitemap: https://afroditecartomante.netlify.app/sitemap.xml

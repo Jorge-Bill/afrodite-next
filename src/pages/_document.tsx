@@ -8,8 +8,8 @@ class MyDocument extends Document {
     return (
       <Html lang={AppConfig.locale}>
         <Head>
-        <title>Afrodite Cartomante</title>
-          <meta name='description' content='Taróloga cheia de axé. Oraculista' />
+          <title>Afrodite Cartomante</title>
+          <meta name='description' content='Taróloga cheia de axé. Oraculista - Tarot, Baralho Cigano, Mesa Real Leituras específicas!!! Guiadas por Maria Padilha' />
           <meta property='og:title' content='Cartomante Afrodite' />
           <meta
             property='og:description'
@@ -19,7 +19,7 @@ class MyDocument extends Document {
           <meta property='og:type' content='website' />
           <link rel='icon' href='/favicon.ico' />
 
-          <meta name="keywords" content="Taróloga, Oraculista, Afrodite, Afrodite Cartomante, Cartomante, Baralho Cigano, Maria Padilha, Axé" />
+          <meta name="keywords" content="Taróloga, Oraculista, Afrodite, Afrodite Cartomante, Cartomante, Baralho Cigano, Maria Padilha, Axé, Tarot, Afrodite Taróloga, A melhor taróloga do Brasil" />
           <meta name="author" content="Afrodite Cartomante" />
 
           <meta name="theme-color" content="#CB6CE7" /> 
