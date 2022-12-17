@@ -5,11 +5,11 @@ const Info = () => {
   return (
     <section className={`bg-background py-8`} id="info">
     <div className={`container max-w-5xl mx-auto m-8`}>
-      <h1
+      <h4
         className={`w-full my-2 text-5xl font-bold leading-tight text-center text-border`}
       >
         Sobre o <span className='text-primary'>Tarot</span>
-      </h1>
+      </h4>
       <Divider />
         <div className={`flex flex-wrap border-4 border-indigo-600 border-opacity-50 rounded-lg p-8 shadow-xl`}>
             <h3 className={`text-3xl text-gray-800 font-bold leading-none mb-6`}>O que é o tarot?</h3>

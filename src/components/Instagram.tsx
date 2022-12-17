@@ -6,9 +6,9 @@ const Instagram = () => {
 <div className={`py-12 bg-background`} id="instagram">
 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
   <div className="lg:text-center">
-    <h2 className={`text-base text-primary font-semibold tracking-wide uppercase`}>
+    <h5 className={`text-base text-primary font-semibold tracking-wide uppercase`}>
         Conheça meu
-    </h2>
+    </h5>
     <p className="mt-2 mb-4 text-2xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
        Instagram
     </p>
