@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="iso-8859-1"?> 
+    <rss version="0.91"> 
+        <channel> 
+            <title>Afrodite Cartomante</title> 
+            <description>Taróloga cheia de axé. Oraculista - Tarot, Baralho Cigano, Mesa Real Leituras específicas!!! Guiadas por Maria Padilha</description> 
+            <link>https://afroditecartomante.netlify.app/</link> 
+            <language>pt-br</language> 
+                <item> 
+                    <title>Sobre o Tarot</title> 
+                    <description>Uma breve história sobre o tarot</description> 
+                    <link>https://afroditecartomante.netlify.app/</link> 
+                </item> 
+                <item> 
+                    <title>Conheça meu trabalho</title> 
+                    <description>Taróloga cheia de axé</description> 
+                    <link>https://afroditecartomante.netlify.app/</link> 
+                </item> 
+                <item> 
+                    <title>Conheça meu trabalho</title> 
+                    <description>Taróloga cheia de axé</description> 
+                    <link>https://afroditecartomante.netlify.app/</link> 
+                </item>
+                <item> 
+                    <title>Agende sua consulta</title> 
+                    <description>Horarios de atendimento: de segunda a sexta dás 11:00 ás 18:00</description> 
+                    <link>https://wa.me/message/JMLCZZGOBCSHG1</link> 
+                </item>
+                <item> 
+                    <title>Consultas</title> 
+                    <description>Perguntas Objetivas, Consulta Completa Online, Mandala Astral</description> 
+                    <link>https://afroditecartomante.netlify.app/</link> 
+                </item>
+                <item> 
+                    <title>Conheça meu Instagram</title> 
+                    <description>Acompanhe a carta do dia, que é uma orientação para você no viver melhor seu dia nos stories, recados das entidades e conteúdo exclusivo.</description> 
+                    <link>https://www.instagram.com/magias_tarot_afrodite</link> 
+                </item>
+        </channel> 
+    </rss>
