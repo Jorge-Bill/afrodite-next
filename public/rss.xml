@@ -8,32 +8,27 @@
                 <item> 
                     <title>Sobre o Tarot</title> 
                     <description>Uma breve história sobre o tarot</description> 
-                    <link>https://afroditecartomante.netlify.app/</link> 
-                </item> 
-                <item> 
-                    <title>Conheça meu trabalho</title> 
-                    <description>Taróloga cheia de axé</description> 
-                    <link>https://afroditecartomante.netlify.app/</link> 
-                </item> 
-                <item> 
-                    <title>Conheça meu trabalho</title> 
-                    <description>Taróloga cheia de axé</description> 
-                    <link>https://afroditecartomante.netlify.app/</link> 
+                    <link>https://afroditecartomante.netlify.app/</link>
                 </item>
                 <item> 
-                    <title>Agende sua consulta</title> 
+                    <title>Conheça meu trabalho</title> 
+                    <description>Taróloga cheia de axé</description> 
+                    <link>https://afroditecartomante.netlify.app/</link>
+                </item>
+                <item> 
+                    <title>Agende sua consulta diretamente por</title> 
                     <description>Horarios de atendimento: de segunda a sexta dás 11:00 ás 18:00</description> 
-                    <link>https://wa.me/message/JMLCZZGOBCSHG1</link> 
+                    <link>https://wa.me/message/JMLCZZGOBCSHG1</link>
                 </item>
                 <item> 
-                    <title>Consultas</title> 
+                    <title>Consultas online</title> 
                     <description>Perguntas Objetivas, Consulta Completa Online, Mandala Astral</description> 
-                    <link>https://afroditecartomante.netlify.app/</link> 
+                    <link>https://afroditecartomante.netlify.app/</link>
                 </item>
                 <item> 
                     <title>Conheça meu Instagram</title> 
                     <description>Acompanhe a carta do dia, que é uma orientação para você no viver melhor seu dia nos stories, recados das entidades e conteúdo exclusivo.</description> 
-                    <link>https://www.instagram.com/magias_tarot_afrodite</link> 
+                    <link>https://www.instagram.com/magias_tarot_afrodite</link>
                 </item>
         </channel> 
     </rss>
