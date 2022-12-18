@@ -1,10 +1,11 @@
 <?xml version="1.0"  encoding="UTF-8" ?> 
-    <rss version="2.0"> 
+    <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"> 
         <channel> 
             <title>Afrodite Cartomante</title> 
             <description>Taróloga cheia de axé. Oraculista - Tarot, Baralho Cigano, Mesa Real Leituras específicas!!! Guiadas por Maria Padilha</description> 
             <link>https://afroditecartomante.netlify.app/</link> 
             <language>pt-br</language> 
+            <atom:link href="https://afroditecartomante.netlify.app/rss.xml" rel="self" type="application/rss+xml" />
                 <item> 
                     <title>Sobre o Tarot</title> 
                     <description>Uma breve história sobre o tarot</description> 
