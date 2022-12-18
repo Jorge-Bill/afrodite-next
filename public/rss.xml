@@ -8,28 +8,42 @@
             <atom:link href="https://afroditecartomante.netlify.app/rss.xml" rel="self" type="application/rss+xml" />
                 <item> 
                     <title>Sobre o Tarot</title> 
-                    <description>Uma breve história sobre o tarot</description> 
+                    <description>
+                        Cada lâmina vem com a ilustração de um arquétipo, que traz um significado. A leitura, que combina diferentes cartas, é baseada na aleatoriedade (ou seja, são sorteadas ao acaso) e ajuda a interpretar situações e criar um panorama da vida de quem consulta esse oráculo.
+                    </description> 
                     <link>https://afroditecartomante.netlify.app/</link>
+                    <guid>https://afroditecartomante.netlify.app/</guid>
                 </item>
                 <item> 
                     <title>Conheça meu trabalho</title> 
-                    <description>Taróloga cheia de axé</description> 
+                    <description>
+                        Optchá seja bem vindo(a) a Afrodite Cartomante, aqui você encontra informações sobre mim, meu trabalho como taróloga e minhas redes sociais, Optchá!
+                    </description> 
                     <link>https://afroditecartomante.netlify.app/</link>
+                    <guid>https://afroditecartomante.netlify.app/</guid>
                 </item>
                 <item> 
-                    <title>Agende sua consulta diretamente por</title> 
-                    <description>Horarios de atendimento: de segunda a sexta dás 11:00 ás 18:00</description> 
+                    <title>Agende sua consulta diretamente pelo WhatsApp</title> 
+                    <description>
+                        Horarios de atendimento: De segunda a sexta dás 11:00 ás 18:00
+                    </description> 
                     <link>https://wa.me/message/JMLCZZGOBCSHG1</link>
+                    <guid>https://wa.me/message/JMLCZZGOBCSHG1</guid>
                 </item>
                 <item> 
-                    <title>Consultas online</title> 
-                    <description>Perguntas Objetivas, Consulta Completa Online, Mandala Astral</description> 
+                    <title>Consultas</title> 
+                    <description>
+                        Atendendo em modalidades diferentes de consulta que se adequam ao seu problema e o seu bolso:
+                        Perguntas Objetivas, Consulta Completa Online, Mandala Astral
+                    </description> 
                     <link>https://afroditecartomante.netlify.app/</link>
+                    <guid>https://afroditecartomante.netlify.app/</guid>
                 </item>
                 <item> 
                     <title>Conheça meu Instagram</title> 
                     <description>Acompanhe a carta do dia, que é uma orientação para você no viver melhor seu dia nos stories, recados das entidades e conteúdo exclusivo.</description> 
                     <link>https://www.instagram.com/magias_tarot_afrodite</link>
+                    <guid>https://www.instagram.com/magias_tarot_afrodite</guid>
                 </item>
         </channel> 
     </rss>
