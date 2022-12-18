@@ -18,6 +18,8 @@ class MyDocument extends Document {
           <meta property='og:url' content='https://afrodite-nextjs.netlify.app' />
           <meta property='og:type' content='website' />
           <link rel='icon' href='/favicon.ico' />
+          <link rel="alternate" type="application/rss+xml" title="Afrodite Cartomante RSS feed" href="/rss.xml" />
+          <link rel="alternate" type="application/sitemap+xml" title="Afrodite Cartomante sitemap" href="/sitemap.xml" />
 
           <meta 
             name="keywords" 
