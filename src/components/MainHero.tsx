@@ -1,6 +1,10 @@
 import React from 'react';
 
 import config from '../config/index.json';
+import { 
+  FaInstagram, 
+  FaWhatsapp
+} from 'react-icons/fa';
 
 const MainHero = () => {
   const { mainHero } = config;
@@ -19,18 +23,22 @@ const MainHero = () => {
         <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
           <div className="rounded-md shadow">
             <a
+              target="_blank"
+              rel="noreferrer"
               href={mainHero.primaryAction.href}
               className={`w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:text-offwhite md:py-4 md:text-lg md:px-10`}
             >
-              {mainHero.primaryAction.text}
+              {mainHero.primaryAction.text} <FaWhatsapp className='ml-2' />
             </a>
           </div>
           <div className="mt-3 sm:mt-0 sm:ml-3">
             <a
+              target="_blank"
+              rel="noreferrer"
               href={mainHero.secondaryAction.href}
               className={`w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md border-primary text-secondary bg-background hover:text-primary md:py-4 md:text-lg md:px-10`}
             >
-              {mainHero.secondaryAction.text}
+              {mainHero.secondaryAction.text} <FaInstagram className='ml-2' />
             </a>
           </div>
         </div>

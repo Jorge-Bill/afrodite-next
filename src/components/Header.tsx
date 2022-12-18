@@ -60,14 +60,17 @@ const Menu = () => {
               ))}
               <a
                 href="https://www.instagram.com/magias_tarot_afrodite/"
-                className={`font-medium text-gray-500 hover:text-gray-900`}
+                className={`font-medium text-primary hover:text-secondary`}
                 target="_blank"
+                rel="noreferrer"
               >
                 Instagram
               </a>
               <a
                 href="https://wa.me/message/JMLCZZGOBCSHG1"
                 className={`font-medium text-primary hover:text-secondary`}
+                target="_blank"
+                rel="noreferrer"
               >
                 WhatsApp
               </a>
@@ -99,7 +102,7 @@ const Menu = () => {
                   <Popover.Button
                     className={`bg-background rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-secondary`}
                   >
-                    <span className="sr-only">Close main menu</span>
+                    <span className="sr-only">Fechar menu</span>
                     <XIcon className="h-6 w-6" aria-hidden="true" />
                   </Popover.Button>
                 </div>
@@ -121,9 +124,11 @@ const Menu = () => {
               </div>
               <a
                 href={callToAction.href}
+                target="_blank"
+                rel="noreferrer"
                 className={`block w-full px-5 py-3 text-center font-medium text-primary bg-gray-50 hover:bg-gray-100`}
               >
-                {callToAction.text}
+                {callToAction.text} 
               </a>
             </div>
           </Popover.Panel>
