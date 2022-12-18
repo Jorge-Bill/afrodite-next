@@ -20,6 +20,7 @@
                         Optchá seja bem vindo(a) a Afrodite Cartomante, aqui você encontra informações sobre mim, meu trabalho como taróloga e minhas redes sociais, Optchá!
                     </description> 
                     <link>https://afroditecartomante.netlify.app/</link>
+                    <guid>https://afroditecartomante.netlify.app/assets/images/profile.jpeg</guid>
                 </item>
                 <item> 
                     <title>Agende sua consulta diretamente pelo WhatsApp</title> 
@@ -53,8 +54,8 @@
                 <item> 
                     <title>Conheça meu Tik Tok</title> 
                     <description>Me acompanhe no TikTok</description> 
-                    <link>https://www.youtube.com/@afroditecartomante4010</link>
-                    <guid>https://www.youtube.com/@afroditecartomante4010</guid>
+                    <link>https://www.tiktok.com/@magiastarotafrodite</link>
+                    <guid>https://www.tiktok.com/@magiastarotafrodite</guid>
                 </item>
         </channel> 
     </rss>
