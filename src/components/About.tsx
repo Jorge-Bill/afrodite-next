@@ -1,10 +1,18 @@
 import React from 'react';
 import { Player } from "@lottiefiles/react-lottie-player";
 import catPlay from "../utils/JSON/cat_play.json";
-// import config from '../config/index.json';
+import config from '../config/index.json';
+
+import { 
+  FaInstagram, 
+  FaWhatsapp,
+  FaTiktok,
+  FaYoutube 
+} from 'react-icons/fa';
 
 const About = () => {
-  // const { company, about } = config;
+  const { about } = config;
+  const { instagram, whattsapp, tiktok, youtube } = about.socialMedia;
   // const { logo, name: companyName } = company;
   // const { socialMedia, sections } = about;
 
@@ -28,57 +36,51 @@ const About = () => {
             </a>
           ))}
         </div> */}
-        {/* <div className="flex items-center gap-x-8 mt-6 h-8">
+        <div className="flex items-center gap-x-8 mt-6 h-8">
           <a
-            aria-label="instagram"
-            href={socialMedia.instagram}
+            aria-label="Instagram"
+            href={instagram}
             target="_blank"
             rel="noreferrer"
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5"
-              viewBox="0 0 20 20"
-              fill="currentColor">
-              <path d="M2 6a2 2 0 012-2h6a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V6zM14.553 7.106A1 1 0 0014 8v4a1 1 0 00.553.894l2 1A1 1 0 0018 13V7a1 1 0 00-1.447-.894l-2 1z" />
-            </svg>
+            <FaInstagram />
           </a>
           <a
-            aria-label="whattsapp"
-            href={socialMedia.whattsapp}
+            aria-label="WhatsApp"
+            href={whattsapp}
             target="_blank"
             rel="noreferrer"
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5"
-              viewBox="0 0 20 20"
-              fill="currentColor">
-              <path fill="evenodd" d="M18 10c0 3.866-3.582 7-8 7a8.841 8.841 0 01-4.083-.98L2 17l1.338-3.123C2.493 12.767 2 11.434 2 10c0-3.866 3.582-7 8-7s8 3.134 8 7zM7 9H5v2h2V9zm8 0h-2v2h2V9zM9 9h2v2H9V9z" clipRule="evenodd" />
-            </svg>
+            <FaWhatsapp />
           </a>
           <a
-            aria-label="tik tok"
-            href={socialMedia.tiktok}
+            aria-label="TikTok"
+            href={tiktok}
             target="_blank"
             rel="noreferrer"
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5"
-              viewBox="0 0 20 20"
-              fill="currentColor">
-              <path fill="evenodd" d="M7 2a2 2 0 00-2 2v12a2 2 0 002 2h6a2 2 0 002-2V4a2 2 0 00-2-2H7zm3 14a1 1 0 100-2 1 1 0 000 2z" clipRule="evenodd" />
-            </svg>
+            <FaTiktok />
           </a>
-        </div> */}
+          <a
+            aria-label="YouTube"
+            href={youtube}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaYoutube />
+          </a>
+        </div>
         <div className="flex items-center mt-12">
           <Player src={catPlay} className="h-48" loop autoplay />
         </div>
         <div className="flex items-center mt-6">
           <p className="mt-6 text-xs lg:text-sm leading-none text-gray-900 dark:text-gray-50">
-            &copy; {new Date().getFullYear()} designed by{' '}
-            <a href="https://www.jorgemendes.com.br" rel="nofollow">
+            &copy; {new Date().getFullYear()} - {' '}
+            <a 
+              aria-label="Mendes Tecnologia"
+              href="https://www.jorgemendes.com.br"
+              target="_blank"  
+              rel="noreferrer">
               Mendes Tecnologia
             </a>
           </p>

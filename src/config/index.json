@@ -127,18 +127,15 @@
   "about": {
     "sections": [
       {
-        "name": "teste 01",
-        "href": "#"
-      }, 
-      {
-        "name": "teste 01",
+        "name": "",
         "href": "#"
       }
     ],
     "socialMedia": {
       "instagram": "https://www.instagram.com/magias_tarot_afrodite/",
       "whattsapp": "https://wa.me/message/JMLCZZGOBCSHG1",
-      "tiktok": "#"
+      "tiktok": "https://www.tiktok.com/@magiastarotafrodite",
+      "youtube": "https://www.youtube.com/@afroditecartomante4010"
     }
   }
 }
