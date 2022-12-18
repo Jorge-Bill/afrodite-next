@@ -48,7 +48,7 @@ class MyDocument extends Document {
           <meta name="apple-mobile-web-app-status-bar-style" content="#CB6CE7" /> 
           <meta name="msapplication-navbutton-color" content="#CB6CE7" /> 
 
-          <meta property="og:image" content="https://afroditecartomante.netlify.app/assets/images/bg02.jpeg" />
+          <meta property="og:image" content="https://afroditecartomante.netlify.app/assets/images/profile.jpeg" />
           <meta property="og:image:type" content="image/jpeg" />
           <meta property="og:image:width" content="800" /> 
           <meta property="og:image:height" content="600" />
