@@ -35,7 +35,11 @@ class MyDocument extends Document {
               A melhor Taróloga do Brasil,
               Zé Pelintra,
               Tarot Online,
-              Magias" />
+              Magias,
+              Bruxaria,
+              Wicca,
+              Bruxa Natural,
+              Lilith" />
           <meta name="author" content="Afrodite Cartomante" />
 
           <meta name="theme-color" content="#CB6CE7" /> 
