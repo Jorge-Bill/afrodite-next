@@ -6,6 +6,8 @@ import { Link } from 'react-scroll';
 
 import config from '../config/index.json';
 
+import { FaWhatsapp } from 'react-icons/fa';
+
 const Menu = () => {
   const { navigation, company, callToAction } = config;
   const { name: companyName, logo } = company;
@@ -126,9 +128,10 @@ const Menu = () => {
                 href={callToAction.href}
                 target="_blank"
                 rel="noreferrer"
-                className={`block w-full px-5 py-3 text-center font-medium text-primary bg-gray-50 hover:bg-gray-100`}
+                className={`block w-full flex items-center justify-center px-5 py-3 text-center font-medium text-primary bg-gray-50 hover:bg-gray-100`}
               >
                 {callToAction.text} 
+                <FaWhatsapp className='ml-2' />
               </a>
             </div>
           </Popover.Panel>
