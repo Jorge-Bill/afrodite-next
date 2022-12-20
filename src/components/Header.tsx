@@ -131,7 +131,7 @@ const Menu = () => {
                 className={`block w-full flex items-center justify-center px-5 py-3 text-center font-medium text-primary bg-gray-50 hover:bg-gray-100`}
               >
                 {callToAction.text} 
-                <FaWhatsapp className='ml-2' />
+                <FaWhatsapp className='ml-1' />
               </a>
             </div>
           </Popover.Panel>
