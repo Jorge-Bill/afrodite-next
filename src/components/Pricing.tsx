@@ -4,7 +4,7 @@ import config from '../config/index.json';
 
 const Pricing = () => {
   const { pricing } = config;
-  const { items, title } = pricing;
+  const { items, title, payment, paymentDesc, pix, picPay } = pricing;
   const [firstPlan, secondPlan, thirdPlan] = items;
 
   return (
@@ -119,6 +119,37 @@ const Pricing = () => {
           </div>
         </div>
       </div>
+
+      <div className={`container text-center max-w-5xl mx-auto m-8`}>
+          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-primary sm:text-4xl">
+            {payment}
+          </p>
+          <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+            {paymentDesc}
+          </p>
+          <div className={`flex flex-wrap flex-col sm:flex-row`}>
+            <div className={`w-full sm:w-1/2 p-6`}>
+              <div className='p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4'>
+                <img
+                  className="h-6/6"
+                  src={pix}
+                  alt={'pix'}
+                />
+              </div>
+            </div>
+            <div className={`w-full sm:w-1/2 p-6`}>
+              <div className='p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4'>
+                <img
+                  className="h-6/6"
+                  src={picPay}
+                  alt={'picPay'}
+                />
+              </div>
+            </div>
+          </div>
+        
+      </div>
+      
     </section>
   );
 };

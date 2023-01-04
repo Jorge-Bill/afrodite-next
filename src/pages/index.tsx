@@ -46,6 +46,7 @@ const App = () => {
       <LazyShow>
         <>
           <Pricing />
+          <Canvas />
           <Instagram />
         </>
       </LazyShow>

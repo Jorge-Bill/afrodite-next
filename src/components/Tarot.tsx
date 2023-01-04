@@ -46,7 +46,7 @@ const Info = () => {
                 <li>Tenha tempo para a consulta pois afrodite irá te chamar um pouco antes do horário agendado</li>
                 <li>Preste atenção atentamente ao recado das cartas</li>
                 <li>Avise a Afrodite com antecedência caso ocorra um imprevisto para remarcar a consulta</li>
-                <li>As consultas acontecem após o pagamento via Pix</li>
+                <li>As consultas acontecem após o pagamento via Pix ou PicPay</li>
                 <li>Esteja apta(o) a ouvir os recados que o baralho tem para você</li>
                 <li>Pense em suas perguntas e o que deseja descobrir antecipadamente</li>
             </ul>

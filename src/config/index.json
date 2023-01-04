@@ -138,7 +138,11 @@
           "De R$ 5,00 até R$ 10,00"
         ]
       }
-    ]
+    ],
+    "payment": "Pagamentos",
+    "paymentDesc": "Trabalho pelos seguintes meios de pagamento:",
+    "pix": "/assets/images/pix.svg",
+    "picPay": "/assets/images/picpay.svg"
   },
   "about": {
     "sections": [

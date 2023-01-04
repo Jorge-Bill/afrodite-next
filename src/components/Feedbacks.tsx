@@ -31,9 +31,7 @@ const Feedbacks = () => {
                                 slidesPerView: 1,
                             },
                         }}
-                        autoplay={{
-                            delay: 2000,
-                        }}
+                        autoplay={true}
                         className="mySwiper max-w-screen-md mx-auto" 
                         >
                         {feedbacks.map((feedback) => (
