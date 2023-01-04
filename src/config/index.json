@@ -40,7 +40,7 @@
     "items": [
       {
         "title": "Taróloga cheia de Axé",
-        "description": "Optchá seja bem vindo(a) a Afrodite Cartomante, aqui você encontra informações sobre mim, meu trabalho como taróloga e minhas redes sociais, Optchá!",
+        "description": "Seja bem vindo(a) a Afrodite Cartomante, aqui você encontra informações sobre mim, meu trabalho como taróloga e minhas redes sociais, Optchá!",
         "img": "/assets/images/cards.png"
       },
       {
@@ -91,35 +91,51 @@
     "title": "Consultas",
     "items": [
       {
-        "name": "Perguntas Objetivas",
-        "price": "R$ 50,00",
+        "name": "Perguntas",
+        "price": "Valores variados",
         "priceDetails": "",
-        "features": ["Perguntas objetivas", "Saiba o que precisa", "Até 5 perguntas"]
+        "features": [
+          "1 pergunta objetiva simples + conselho:", 
+          "R$ 15,00", 
+          "2 perguntas objetivas simples:",
+          "R$ 25,00",
+          "1 perguntas objetivas + conselho:", 
+          "R$ 35,00",
+          "3 perguntas objetivas:", 
+          "R$ 45,00",
+          "Perguntas adicionais fora a consulta:",
+          "De R$ 5,00 até R$ 10,00"
+        ]
       },
       {
-        "name": "Consulta Completa Online",
-        "price": "R$ 100,00",
+        "name": "Completa Online",
+        "price": "R$ 130,00",
         "priceDetails": "",
 
         "features": [
           "Consulta por vídeo chamada",
           "60 minutos de consulta",
-          "2 perguntas objetivas bônus",
+          "3 perguntas objetivas bônus",
           "Descubra tudo Sobre:",
           "Amor, Dinheiro, Saúde",
-          "Seu Espiritual e Família"
+          "Seu Espiritual e Família",
+          "Perguntas adicionais fora a consulta:",
+          "De R$ 5,00 até R$ 10,00"
         ]
       },
       {
-        "name": "Mandala Astral",
-        "price": "R$ 75,00",
+        "name": "Meia Mesa Real",
+        "price": "R$ 85,00",
         "priceDetails": "",
         "features": [
-          "Perguntas detalhadas",
+          "30 minutos de consulta",
+          "2 perguntas objetivas bônus",
           "Entenda melhor o passado",
           "Futuro e a origem de problemas",
           "Amor, Trabalho, Saúde",
-          "Relacionamento, espiritual"
+          "Relacionamento, espiritual",
+          "Perguntas adicionais fora a consulta:",
+          "De R$ 5,00 até R$ 10,00"
         ]
       }
     ]
