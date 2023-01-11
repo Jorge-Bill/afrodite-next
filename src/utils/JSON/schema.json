@@ -1,16 +1,25 @@
 {
-    "@context": "https://schema.org/",
-    "@type": "Person",
-    "name": "Afrodite Cartomante",
-    "url": "https://afroditecartomante.netlify.app/",
-    "image": "https://afroditecartomante.netlify.app/assets/images/profile.jpeg",
-    "sameAs": [
-      "https://www.instagram.com/magias_tarot_afrodite/",
-      "https://afroditecartomante.netlify.app/"
-    ],
-    "jobTitle": "Cartomante Online",
-    "worksFor": {
-      "@type": "Organization",
-      "name": "Cartomância online"
-    }  
-  }
+  "@context": "http://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Afrodite Cartomante",
+  "telephone": "(11) 97827-1175",
+  "image": "https://afroditecartomante.netlify.app/assets/images/profile.jpeg",
+  "url": "https://afroditecartomante.netlify.app/",
+  "sameAs": [
+  	"https://www.instagram.com/magias_tarot_afrodite/",
+  	"https://afroditecartomante.netlify.app/",
+	  "https://www.tiktok.com/@magiastarotafrodite"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Instagram"
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": {
+      "@type": "DayOfWeek",
+      "name": "Agende sua consulta"
+    }
+  },
+  "priceRange":"Consultas"
+}
