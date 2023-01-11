@@ -33,6 +33,10 @@
     "secondaryAction": {
       "text": "Instagram",
       "href": "https://www.instagram.com/magias_tarot_afrodite/"
+    },
+    "tertiaryAction": {
+      "text": "Tik Tok",
+      "href": "https://www.tiktok.com/@magiastarotafrodite/"
     }
   },
   "product": {
@@ -82,7 +86,7 @@
       },
       {
         "name": "Sabado e Domingo",
-        "description": "Agenda fechada",
+        "description": "Agenda fechada.",
         "icon": "/assets/images/cat.png"
       }
     ]

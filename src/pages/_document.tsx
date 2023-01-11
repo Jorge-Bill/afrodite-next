@@ -56,6 +56,7 @@ class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
+          <script async src="https://www.tiktok.com/embed.js"></script>
         </body>
       </Html>
     );
