@@ -1,6 +1,7 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
-
+import Script from "next/script";
 import { AppConfig } from '../utils/AppConfig';
+import schema from '../utils/JSON/schema.json';
 
 // Need to create a custom _document because i18n support is not compatible with `next export`.
 class MyDocument extends Document {
@@ -82,6 +83,11 @@ class MyDocument extends Document {
           <meta property="og:image:type" content="image/jpeg" />
           <meta property="og:image:width" content="800" /> 
           <meta property="og:image:height" content="600" />
+
+          <Script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+            />
         </Head>
         <body>
           <Main />

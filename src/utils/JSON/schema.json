@@ -1,0 +1,16 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Person",
+    "name": "Afrodite Cartomante",
+    "url": "https://afroditecartomante.netlify.app/",
+    "image": "https://afroditecartomante.netlify.app/assets/images/profile.jpeg",
+    "sameAs": [
+      "https://www.instagram.com/magias_tarot_afrodite/",
+      "https://afroditecartomante.netlify.app/"
+    ],
+    "jobTitle": "Cartomante Online",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Cartomância online"
+    }  
+  }
