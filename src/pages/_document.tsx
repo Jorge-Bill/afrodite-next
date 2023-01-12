@@ -1,5 +1,4 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
-import Script from "next/script";
 import { AppConfig } from '../utils/AppConfig';
 import schema from '../utils/JSON/schema.json';
 
@@ -84,15 +83,16 @@ class MyDocument extends Document {
           <meta property="og:image:width" content="800" /> 
           <meta property="og:image:height" content="600" />
 
-          <Script
+          <script
+            key="structured-data"
             type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(`${schema}`) }}
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
             />
         </Head>
         <body>
           <Main />
           <NextScript />
-          <script async src="https://www.tiktok.com/embed.js"></script>
+          <script key="tiktok-embed" async src="https://www.tiktok.com/embed.js"></script>
         </body>
       </Html>
     );
