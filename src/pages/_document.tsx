@@ -86,7 +86,7 @@ class MyDocument extends Document {
 
           <Script
             type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(`${schema}`) }}
             />
         </Head>
         <body>
