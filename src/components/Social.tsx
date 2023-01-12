@@ -15,11 +15,11 @@ const Social = () => {
         <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-primary sm:text-4xl">
           Minhas redes sociais
         </p>
-        <p className="mt-4 max-w-2xl text-base text-gray-500 lg:mx-auto">
+        <p className="mt-4 max-w-2xl text-center text-base text-gray-500 lg:mx-auto">
           Acompanhe a carta do dia, uma orientação para você no viver melhor seu dia, recados das entidades e conteúdos exclusivos.
         </p>
 
-        <div className='mt-5 mb-4 sm:mt-8 flex justify-center'>
+        <div className='mt-5 mb-2 sm:mt-8 flex justify-center'>
           <div className="rounded-md shadow">
             <a
               target="_blank"
@@ -33,6 +33,26 @@ const Social = () => {
         </div>
 
         <div className={`flex flex-wrap flex-col sm:flex-row`}>
+        <div className={`w-full sm:w-1/2 p-4`}>
+            <div className='p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4'>
+              <iframe 
+                className='h-6/6' 
+                id="instagramProfile" 
+                style={{maxWidth: 'auto', minWidth: '100%', minHeight: '425px', maxHeight: 'auto'}} 
+                src="https://www.instagram.com/p/Cm9LrCGq-yg/embed"
+              />
+            </div>
+            <div className="rounded-md mt-2">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href={mainHero.secondaryAction.href}
+                className={`w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md border-primary text-secondary bg-background hover:text-primary md:py-4 md:text-lg md:px-10`}
+              >
+                {mainHero.secondaryAction.text} <FaInstagram className='ml-1' />
+              </a>
+            </div>
+          </div>
           <div className={`w-full sm:w-1/2 p-4`}>
             <div className='p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4'>
               <blockquote
@@ -60,26 +80,6 @@ const Social = () => {
             >
               {mainHero.tertiaryAction.text} <FaTiktok className='ml-1' />
             </a>
-            </div>
-          </div>
-          <div className={`w-full sm:w-1/2 p-4`}>
-            <div className='p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4'>
-              <iframe 
-                className='h-6/6' 
-                id="instagramProfile" 
-                style={{maxWidth: 'auto', minWidth: '100%', minHeight: '425px', maxHeight: 'auto'}} 
-                src="https://www.instagram.com/p/Cm9LrCGq-yg/embed"
-              />
-            </div>
-            <div className="rounded-md mt-2">
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href={mainHero.secondaryAction.href}
-                className={`w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md border-primary text-secondary bg-background hover:text-primary md:py-4 md:text-lg md:px-10`}
-              >
-                {mainHero.secondaryAction.text} <FaInstagram className='ml-1' />
-              </a>
             </div>
           </div>
         </div>
