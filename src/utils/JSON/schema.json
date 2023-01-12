@@ -3,6 +3,7 @@
   "@type": "LocalBusiness",
   "name": "Afrodite Cartomante",
   "telephone": "(11) 97827-1175",
+  "description": "Taróloga cheia de axé. Oraculista - Tarot, Baralho Cigano, Mesa Real Leituras específicas!!! Guiadas por Maria Padilha.",
   "image": "https://afroditecartomante.netlify.app/assets/images/profile.jpeg",
   "url": "https://afroditecartomante.netlify.app/",
   "sameAs": [
@@ -12,14 +13,14 @@
   ],
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Instagram"
+    "streetAddress": "São Paulo, Brasil"
   },
   "openingHoursSpecification": {
     "@type": "OpeningHoursSpecification",
     "dayOfWeek": {
       "@type": "DayOfWeek",
-      "name": "Agende sua consulta"
+      "name": "Segunda a sexta dás 11:00 ás 18:00."
     }
   },
-  "priceRange":"Consultas"
+  "priceRange":"Várias modalidades de consultas que cabem no seu bolso."
 }
